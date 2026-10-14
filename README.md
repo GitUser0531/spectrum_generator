@@ -48,3 +48,6 @@ python spectrum_generator.py --input track.mp3 --export-mp4 track_spectrum.mp4 -
 ```
 
 如果 FFmpeg 编译了 NVENC，也可以设置 `SPECTRUM_USE_NVENC=1` 让视频编码尝试使用 `h264_nvenc`；FFT 的 CUDA 加速由 CuPy（或已有的 CUDA PyTorch）控制。JSON 中包含每个时间帧的频谱值、鼓点时间和中心频率，可用于后续网页动画或在视频剪辑软件中对齐节拍。
+
+## 主程序图
+<img width="1477" height="990" alt="QQ20261014-202706" src="https://github.com/user-attachments/assets/dfd29092-9beb-4e66-b37c-9b49ffc93bbf" />
